@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31251c;
+    
+    padding: 10px; 
+    
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        padding: 0px 65px;
+    }
+    
+    .nav-container a {
+        text-decoration: none;
+        padding: 10px;
+        color: #ffffff; 
+        font-size: 20px;
+    }
+    
+}
+
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+
+    .main-text{
+        padding: 0px 80px;
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+        color: #000000bc;
+    }
+
+    .button-container {
+        display: flex;
+        padding: 10px;
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        width: 100vw; 
+    }
+
+    .custom-button {
+        border-radius: 7px;
+        color: #000000bc;
+        border-color: #c9c9c9c2; 
+        background-color: #e4e4e444;
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+        height: 60px; 
+        width: 600px
+    }
+    
+    .link-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 100vw; 
+    }
+
+    .link-container a{
+        text-decoration: none;
+        font-family: 'Times New Roman', serif;
+        padding: 20px;
+        color: #5d3404; 
+        font-size: 20px;
+    }
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* background-color: #93939346;*/
+    color: #ffffffaf; 
+    padding: 100px;
+    width: 100%;
+
+    .large-text {
+        font-size: 30px;
+    }
+    
+    .left-section, .right-section {
+        flex: 0 1 100%; /* Equal distribution of space for left and right sections */
+        font-size: 22px;
+    }
+}
+
+
+
